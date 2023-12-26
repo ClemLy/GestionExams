@@ -7,6 +7,7 @@ Avant d'utiliser GestionExams, assurez-vous de remplir les prérequis suivants :
 - Avoir une distribution Apache installée. Je recommande l'utilisation de XAMPP, que vous pouvez télécharger [ici](https://www.apachefriends.org/fr/download.html).
 - Avoir PHP installé sur votre système.
 - Avoir Symfony installé sur votre système, que vous pouvez télécharger [ici](https://symfony.com/download).
+  
 
 ## Installation
 
@@ -22,6 +23,8 @@ Avant d'utiliser GestionExams, assurez-vous de remplir les prérequis suivants :
     symfony server:start -d
    
 4. Accédez au serveur, puis ajouter "/login" à l'URL. Exemple : https://127.0.0.1:8000/login
+
+   
 
 ## Fonctionnalités
 
@@ -49,10 +52,6 @@ Il est possible de trier les éléments de la base de données en cliquant sur l
 
 GestionExams est une application multilingue ! Il est possible de traduire l'application en français, en anglais, en allemand, et enfin en espagnol.
 
----
-
-Profitez de la gestion d'une base de données avec GestionExams !
-
 ### Sélection des éléments
 
 Il est possible de sélectionner un ou plusieurs éléments de la base de données en cliquant sur leur case à gauche. Ceci permet de supprimer plusieurs éléments à la fois.
@@ -60,3 +59,7 @@ Il est possible de sélectionner un ou plusieurs éléments de la base de donné
 ### Déconnexion
 
 Il est possible de se déconnecter en appuyant sur le bouton on/off en haut de droite de la page principale.
+
+---
+
+Profitez de la gestion d'une base de données avec GestionExams !
