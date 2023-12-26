@@ -1,0 +1,20 @@
+Etudiant: Studenten
+Filiere: Fachrichtung
+Module: Modul
+Semestre: Semester
+User: Benutzer
+Dashboard: Prüfungsverwaltung
+security:
+  reset-password: Passwort zurücksetzen
+  forgetten-password: Passwort vergessen
+  enter-email: Geben Sie Ihre E-Mail ein
+  send-email:  Senden Sie den Link zum Zurücksetzen des Passworts
+  email: E-Mail
+  password: Passwort
+  username: Name und Vorname des Benutzers
+  remember-me: Erinnere dich an mich
+  login: Anmeldung
+  dont-have-account: Ich habe kein Konto
+  register: Registrieren
+  accept: Ich akzeptiere alle
+  terms: Nutzungsbedingungen
