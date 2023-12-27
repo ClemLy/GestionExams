@@ -19,6 +19,7 @@ return [
     'dashboard' => [[], ['_controller' => 'App\\Controller\\Admin\\DashboardController::index'], [], [['text', '/admin']], [], [], []],
     'change_langue' => [[], ['_controller' => 'App\\Controller\\ChangeLangueController::index'], [], [['text', '/change_langue']], [], [], []],
     'changeLocale' => [[], ['_controller' => 'App\\Controller\\ChangeLangueController::changeLocale'], [], [['text', '/changeLocale']], [], [], []],
+    'app_homepage' => [[], ['_controller' => 'App\\Controller\\HomeController::index'], [], [['text', '/']], [], [], []],
     'app_register' => [[], ['_controller' => 'App\\Controller\\RegistrationController::register'], [], [['text', '/register']], [], [], []],
     'app_forgot_password_request' => [[], ['_controller' => 'App\\Controller\\ResetPasswordController::request'], [], [['text', '/reset-password']], [], [], []],
     'app_check_email' => [[], ['_controller' => 'App\\Controller\\ResetPasswordController::checkEmail'], [], [['text', '/reset-password/check-email']], [], [], []],

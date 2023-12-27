@@ -625,6 +625,8 @@ class ComposerStaticInitf2f3ea2b52dc1dc543fcff270d9d2335
         'App\\Controller\\Admin\\NoteCrudController' => __DIR__ . '/../..' . '/src/Controller/Admin/NoteCrudController.php',
         'App\\Controller\\Admin\\SemestreCrudController' => __DIR__ . '/../..' . '/src/Controller/Admin/SemestreCrudController.php',
         'App\\Controller\\Admin\\UserCrudController' => __DIR__ . '/../..' . '/src/Controller/Admin/UserCrudController.php',
+        'App\\Controller\\ChangeLangueController' => __DIR__ . '/../..' . '/src/Controller/ChangeLangueController.php',
+        'App\\Controller\\HomeController' => __DIR__ . '/../..' . '/src/Controller/HomeController.php',
         'App\\Controller\\RegistrationController' => __DIR__ . '/../..' . '/src/Controller/RegistrationController.php',
         'App\\Controller\\ResetPasswordController' => __DIR__ . '/../..' . '/src/Controller/ResetPasswordController.php',
         'App\\Controller\\SecurityController' => __DIR__ . '/../..' . '/src/Controller/SecurityController.php',

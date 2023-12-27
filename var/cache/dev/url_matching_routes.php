@@ -17,6 +17,7 @@ return [
         '/admin' => [[['_route' => 'dashboard', '_controller' => 'App\\Controller\\Admin\\DashboardController::index'], null, null, null, false, false, null]],
         '/change_langue' => [[['_route' => 'change_langue', '_controller' => 'App\\Controller\\ChangeLangueController::index'], null, null, null, false, false, null]],
         '/changeLocale' => [[['_route' => 'changeLocale', '_controller' => 'App\\Controller\\ChangeLangueController::changeLocale'], null, null, null, false, false, null]],
+        '/' => [[['_route' => 'app_homepage', '_controller' => 'App\\Controller\\HomeController::index'], null, null, null, false, false, null]],
         '/register' => [[['_route' => 'app_register', '_controller' => 'App\\Controller\\RegistrationController::register'], null, null, null, false, false, null]],
         '/reset-password' => [[['_route' => 'app_forgot_password_request', '_controller' => 'App\\Controller\\ResetPasswordController::request'], null, null, null, false, false, null]],
         '/reset-password/check-email' => [[['_route' => 'app_check_email', '_controller' => 'App\\Controller\\ResetPasswordController::checkEmail'], null, null, null, false, false, null]],

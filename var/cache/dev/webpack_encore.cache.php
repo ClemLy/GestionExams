@@ -12,20 +12,26 @@ return [[
     'entrypoints' => [
         'app' => [
             'js' => [
-                '/build/runtime.188fa053.js',
-                '/build/755.287d4878.js',
-                '/build/445.aa9eccee.js',
-                '/build/app.dfe522ab.js',
+                '/build/runtime.js',
+                '/build/vendors-node_modules_jquery_dist_jquery_js.js',
+                '/build/vendors-node_modules_fortawesome_fontawesome-free_js_brands_js-node_modules_fortawesome_fonta-afd215.js',
+                '/build/app.js',
             ],
             'css' => [
-                '/build/app.a4d80a66.css',
+                '/build/app.css',
             ],
         ],
         'langues' => [
             'js' => [
-                '/build/runtime.188fa053.js',
-                '/build/755.287d4878.js',
-                '/build/langues.749c5dab.js',
+                '/build/runtime.js',
+                '/build/vendors-node_modules_jquery_dist_jquery_js.js',
+                '/build/langues.js',
+            ],
+        ],
+        'theme' => [
+            'js' => [
+                '/build/runtime.js',
+                '/build/theme.js',
             ],
         ],
     ],

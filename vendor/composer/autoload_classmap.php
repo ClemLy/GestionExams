@@ -14,6 +14,8 @@ return array(
     'App\\Controller\\Admin\\NoteCrudController' => $baseDir . '/src/Controller/Admin/NoteCrudController.php',
     'App\\Controller\\Admin\\SemestreCrudController' => $baseDir . '/src/Controller/Admin/SemestreCrudController.php',
     'App\\Controller\\Admin\\UserCrudController' => $baseDir . '/src/Controller/Admin/UserCrudController.php',
+    'App\\Controller\\ChangeLangueController' => $baseDir . '/src/Controller/ChangeLangueController.php',
+    'App\\Controller\\HomeController' => $baseDir . '/src/Controller/HomeController.php',
     'App\\Controller\\RegistrationController' => $baseDir . '/src/Controller/RegistrationController.php',
     'App\\Controller\\ResetPasswordController' => $baseDir . '/src/Controller/ResetPasswordController.php',
     'App\\Controller\\SecurityController' => $baseDir . '/src/Controller/SecurityController.php',

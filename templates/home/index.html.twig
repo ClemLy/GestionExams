@@ -1,0 +1,31 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+	<main class="px-3">
+		<h1>Bienvenue !</h1><br>
+		<p class="lead">Découvrez GestionExams en cliquant sur Login !</p>	<br>
+		<p class="lead">Email : admin@root.com</p>
+		<p class="lead">Mot de passe : root</p>	<br>
+
+		<p class="lead">
+			<a href="{{ path('app_login') }}" class="btn btn-lg btn-light fw-bold border-white bg-white">Login</a>
+		</p>
+
+
+		<div class="form-check form-switch">
+			<input class="form-check-input" type="checkbox" id="themeSwitch">
+		</div>
+
+	</main>
+
+	<footer class="mt-auto text-white-50">
+		<p>Clémentin LY - 2023</p>
+	</footer>
+
+	{% block javascripts %}
+		{{ parent() }}
+		<script src="{{ asset('build/theme.js') }}"></script>
+	{% endblock %}
+{% endblock %}
