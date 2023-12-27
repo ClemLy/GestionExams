@@ -63,7 +63,7 @@ Il est possible de se déconnecter en appuyant sur le bouton on/off en haut de d
 
 ## Fonctionnalités en cours de développement
 
-### Connexion à l'application
+### Thème clair/sombre
 
 Il est possible de changer la couleur de l'application, passant de sombre à clair, et inversement. Il suffit d'appuyer sur le bouton "switch" présent dans la page d'accueil et la page de login. Le changement de thème fonctionne mais comporte encore quelques limites : Le thème ne se sauvegarde pas, et impossible de changer de thème dans une nouvelle page si on ne la raffraîchit pas.
 
