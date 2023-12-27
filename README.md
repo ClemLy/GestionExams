@@ -22,7 +22,7 @@ Avant d'utiliser GestionExams, assurez-vous de remplir les prérequis suivants :
    ```bash
     symfony server:start -d
    
-4. Accédez au serveur, puis ajouter "/login" à l'URL. Exemple : https://127.0.0.1:8000/login
+4. Accédez au serveur fournit par la commande.
 
    
 
@@ -59,6 +59,20 @@ Il est possible de sélectionner un ou plusieurs éléments de la base de donné
 ### Déconnexion
 
 Il est possible de se déconnecter en appuyant sur le bouton on/off en haut de droite de la page principale.
+
+
+## Fonctionnalités en cours de développement
+
+### Connexion à l'application
+
+Il est possible de changer la couleur de l'application, passant de sombre à clair, et inversement. Il suffit d'appuyer sur le bouton "switch" présent dans la page d'accueil et la page de login. Le changement de thème fonctionne mais comporte encore quelques limites : Le thème ne se sauvegarde pas, et impossible de changer de thème dans une nouvelle page si on ne la raffraîchit pas.
+
+
+## Limites de l'application
+
+### Une base de données locale
+
+Le défaut de cette application est qu'elle fonctionne dans une base de données qui est locale à moi-même. Impossible de se connecter avec un login si je ne démarre pas ma base de données. Il est pour le moment possible de régler ce défaut si vous implémentez vous-même votre base de données.
 
 ---
 
